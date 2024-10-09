@@ -119,9 +119,9 @@ export default function Largedata() {
           infiniteInitialRowCount={1000}
           maxBlocksInCache={10}
           onGridReady={onGridReady}
-          pagination={true}
-          paginationPageSize={50}
-          paginationPageSizeSelector={[50,100,200]}
+        //   pagination={true}
+        //   paginationPageSize={50}
+        //   paginationPageSizeSelector={[50,100,200]}
         />
       </div>
     </div>
