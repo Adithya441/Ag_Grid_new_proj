@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ag-grid-community/core": "^32.2.2",
+    "@ag-grid-community/infinite-row-model": "^32.2.2",
+    "@ag-grid-community/react": "^32.2.2",
+    "@ag-grid-community/styles": "^32.2.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

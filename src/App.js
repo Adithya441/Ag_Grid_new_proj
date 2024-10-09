@@ -9,6 +9,7 @@ const App = () => {
   const [gridApi, setGridApi] = useState(null);
 
   const columnDefs = [
+  
     {
       headerName: "ID",
       field:"id",
@@ -32,7 +33,7 @@ const App = () => {
     rowBuffer: 5, // Number of extra rows to fetch outside of viewable area
     rowSelection: "multiple",
     rowModelType: "infinite",
-    cacheBlockSize: 50, // Number of rows per request block
+    cacheBlockSize: 100, // Number of rows per request block
     maxBlocksInCache: 5, // Limit number of data blocks in cache
   };
 
@@ -87,8 +88,8 @@ const App = () => {
       <AgGridReact
         gridOptions={gridOptions}
         onGridReady={onGridReady}
-        // pagination={true}
-        // paginationPageSize={50}
+        pagination={true}
+        paginationPageSize={50}
       />
     </div>
   );
